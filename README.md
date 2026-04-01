@@ -17,11 +17,12 @@ Learning Verilog from the ground up. Building from fundamental logic gates to co
 - **D Flip-Flop** – positive edge-triggered 1-bit memory element
 - **T Flip-Flop** – toggle flip-flop built using conditional if-else logic
 - **JK Flip-Flop** – universal flip-flop built using concatenation and case statements
+- **D Flip-Flop (Synchronous Reset)** – reset evaluates only on the active clock edge
+- **D Flip-Flop (Asynchronous Reset)** – reset evaluates instantly, overriding the clock
 
 ## ⏳ In Progress
 
-- **Week 2:** Synchronous vs. Asynchronous Resets
-- **Week 2:** Blocking vs. Non-Blocking Assignments
+- **Week 2:** Blocking vs. Non-Blocking Assignments (Theory applied to sequential logic)
 - **Week 2:** 4-bit UP/DOWN Counters
 
 ## 🚀 Coming Soon
