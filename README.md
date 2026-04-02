@@ -19,11 +19,12 @@ Learning Verilog from the ground up. Building from fundamental logic gates to co
 - **JK Flip-Flop** – universal flip-flop built using concatenation and case statements
 - **D Flip-Flop (Synchronous Reset)** – reset evaluates only on the active clock edge
 - **D Flip-Flop (Asynchronous Reset)** – reset evaluates instantly, overriding the clock
+- **2-Stage Shift Register** – physical demonstration of Blocking (`=`) vs. Non-Blocking (`<=`) assignments
+- **4-Bit Register** – 4-bit wide parallel data storage with asynchronous reset
 
 ## ⏳ In Progress
 
-- **Week 2:** Blocking vs. Non-Blocking Assignments (Theory applied to sequential logic)
-- **Week 2:** 4-bit UP/DOWN Counters
+- **Week 2:** 4-bit UP/DOWN Counters (Final Week 2 Sequential Project)
 
 ## 🚀 Coming Soon
 
