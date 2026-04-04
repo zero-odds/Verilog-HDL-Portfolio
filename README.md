@@ -22,13 +22,13 @@ Learning Verilog from the ground up. Building from fundamental logic gates to co
 - **2-Stage Shift Register** – physical demonstration of Blocking (`=`) vs. Non-Blocking (`<=`) assignments
 - **4-Bit Register** – 4-bit wide parallel data storage with asynchronous reset
 - **4-Bit UP Counter** – counts from 0 to 15 with an active-high enable switch and synchronous reset
+- **Project: 4-Bit Universal UP/DOWN Counter** – final week 2 project; counts up/down with dynamic MOD limits (MOD-16, 10, 6, 4) using a case statement selector
 
 ## ⏳ In Progress
 
-- **Week 2:** 4-bit UP/DOWN Counters (Final Week 2 Sequential Project)
+- **Week 3:** 4-bit ALU Project & Vivado Setup (Starting Soon)
 
 ## 🚀 Coming Soon
 
-- 4-bit ALU Project & Vivado Setup (Week 3)
 - Finite State Machines (Week 4)
 - VGA Sync Generator (Week 5)
