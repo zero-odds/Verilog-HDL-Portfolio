@@ -24,6 +24,11 @@ Learning Verilog from the ground up. Building from fundamental logic gates to co
 
 ### Week 3: Combinational Logic & Synthesis (`Week_3_ALU/`)
 - **Project: 4-Bit ALU & Hardware Synthesis** - final week 3 project; designed an Arithmetic Logic Unit capable of 8 simultaneous operations (ADD, SUB, AND, OR, XOR, INV, LSHIFT, RSHIFT). Simulated with a testbench and successfully synthesized into physical Look-Up Tables (LUTs) for an Artix-7 FPGA using Xilinx Vivado.
+- **Hardware Visualization:**
+*Below: Behavioral simulation of the ALU operations, and the physical Artix-7 LUT synthesis.*
+
+![ALU Waveforms](Week_3_ALU/images/alu_waveform.png)
+![ALU Schematic](Week_3_ALU/images/alu_schematic.png)
 
 ## ⏳ In Progress
 - **Week 4:** Finite State Machines (FSMs)
