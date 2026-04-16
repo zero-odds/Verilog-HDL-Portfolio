@@ -35,8 +35,8 @@ Learning Verilog from the ground up. Building from fundamental logic gates to co
 ### Hardware Visualization
 *Below: Behavioral simulation of the state transitions, and the physical Artix-7 LUT synthesis.*
 
-![FSM Waveform](fsm_waveform.png)
-![FSM Schematic](fsm_schematic.png)
+![FSM Waveform](Week_4_FSM/images/fsm_waveform.png)
+![FSM Schematic](Week_4_FSM/images/fsm_schematic.png)
 
 ## 🚀 Coming Soon
 - VGA Sync Generator (Week 5)
