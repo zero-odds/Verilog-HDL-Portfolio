@@ -32,11 +32,15 @@ Learning Verilog from the ground up. Building from fundamental logic gates to co
 
 ### Week 4: Finite State Machines (`Week_4_FSM/`)
 - **Traffic Light Controller** - Designed a Moore Machine FSM to cycle through Green, Yellow, and Red states using an internal counter. Simulated and verified with Icarus Verilog.
+
+- **Project: 1011 Overlapping Sequence Detector** - Designed a 5-state FSM to detect a specific binary sequence (`1011`) in a continuous serial input stream, successfully handling overlapping edge cases. Simulated and verified using Xilinx Vivado.
+
 ### Hardware Visualization
-*Below: Behavioral simulation of the state transitions, and the physical Artix-7 LUT synthesis.*
+*Below: Behavioral simulations of the FSM state transitions and sequence detection, along with physical Artix-7 LUT synthesis.*
 
 ![FSM Waveform](Week_4_FSM/images/fsm_waveform.png)
 ![FSM Schematic](Week_4_FSM/images/fsm_schematic.png)
+![Sequence Detector Waveform](Week_4_FSM/images/seq_detector_waveform.png)
 
 ## 🚀 Coming Soon
 - VGA Sync Generator (Week 5)
