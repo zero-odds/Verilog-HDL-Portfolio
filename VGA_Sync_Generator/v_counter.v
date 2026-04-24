@@ -4,7 +4,7 @@ module v_counter(
     input [9:0] h_count,
     output reg [9:0] v_count
 );
-always@(posedge pixel_clk)begin
+always@(posedge pixel_clk or posedge rst)begin
     if(rst) begin
         v_count <= 10'd0;
     end

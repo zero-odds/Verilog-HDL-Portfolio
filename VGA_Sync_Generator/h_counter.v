@@ -3,7 +3,7 @@ module h_counter(
     input pixel_clk,
     output reg [9:0] h_count
 );
-always@(posedge pixel_clk) begin
+always@(posedge pixel_clk or posedge rst) begin
     if(rst) begin
         h_count = 10'd0;
     end else if(h_count == 10'd799)begin
