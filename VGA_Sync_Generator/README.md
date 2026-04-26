@@ -21,7 +21,7 @@ VGA_Sync_Generator/
 ├── sim/                # Testbench files
 │   └── vga_top_tb.v
 └── README.md
-
+```
 ## Simulation & Verification
 The timing logic was fully verified using **Xilinx Vivado Behavioral Simulation**. The testbench asserts a system reset, drives the 100MHz clock, and successfully verifies the staggered blanking and synchronization pulses.
 
