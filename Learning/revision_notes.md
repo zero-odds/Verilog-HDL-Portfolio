@@ -1,0 +1,5 @@
+Module Structure & Modeling Styles: Reviewed the foundational syntax for Verilog modules and the three primary levels of abstraction: gate-level, dataflow, and behavioral modeling.
+Data Types, Vectors, & Port Connections: Refreshed the rules for assigning wire versus reg data types, declaring vector bit-widths (e.g., [7:0]), and safely instantiating sub-modules using explicit named port connections.
+Procedural Logic & Control Flow: Re-established the syntax for always blocks and how to correctly route logic using if-else conditions and case statements (crucial for state machines).
+Assignments & The Event Scheduler: Clarified the critical distinction between blocking (=) assignments for combinational logic and non-blocking (<=) assignments for sequential logic, and how the Verilog event scheduler processes them.
+Testbench Architecture: Recalled the standard syntax and structure for testbenches, including how to generate a simulated clock, apply stimulus using initial blocks, and test modules without physical hardware pins.
