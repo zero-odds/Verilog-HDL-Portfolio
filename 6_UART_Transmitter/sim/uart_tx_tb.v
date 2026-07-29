@@ -11,10 +11,12 @@ initial begin
     rst=1;
     transmit_start =0;
     data_in = 8'h00;
+        #20;
+    rst = 0;
     #100;
     data_in = 8'h48;
     transmit_start = 1;
-    #10;
+    #100000;
     transmit_start = 0;
     #1500000;
     $finish;
