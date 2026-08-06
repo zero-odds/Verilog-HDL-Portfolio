@@ -7,3 +7,5 @@
 | 3 | 4-bit ALU | Arithmetic, Datapath | Vivado | ✅ |
 | 4 | FSM Sequence Detector | FSM, Mealy/Moore | Vivado | ✅ |
 | 5 | VGA Sync Generator | Timing, Display Controller | Vivado | ✅ |
+| 6 | UART Receiver | Serial Communication, FSM, Oversampling | Vivado | ✅ |
+| 7 | UART Transmitter | Serial Communication, FSM, Shift Registers | Vivado | ✅ |

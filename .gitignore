@@ -2,3 +2,4 @@ ripple
 *.vvp
 *.vcd
 **/UART_Receiver/
+**/UART_Transmitter/
