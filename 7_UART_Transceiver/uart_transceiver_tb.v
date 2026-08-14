@@ -7,7 +7,7 @@ uart_transceiver dut(
     .clk(clk),
     .rst(rst),
     .rx_in(rx_in),
-    .tx_out(tx_out),
+    .tx_out(tx_out)
 );
 always #5 clk = ~clk;
 localparam BIT_PERIOD = 104167;
@@ -32,7 +32,7 @@ localparam BIT_PERIOD = 104167;
         rst = 1;
         rx_in = 1; 
 
-        #100;
+     #100;
         rst = 0;
         #100;
 
