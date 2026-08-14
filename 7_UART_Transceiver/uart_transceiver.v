@@ -7,7 +7,7 @@ module uart_transceiver (
 wire [7:0] loopback_data;
 wire rx_done_tick;
 wire rx_tick;
-baud_gen Baud_gen_inst(
+baud_gen_rx rx_Baud_inst(
     .clk(clk),
     .rst(rst),
     .baud(rx_tick)

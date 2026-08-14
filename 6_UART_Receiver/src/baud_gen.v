@@ -1,4 +1,4 @@
-module baud_gen (
+module baud_gen_rx (
     input clk,rst,
     output reg baud
 );

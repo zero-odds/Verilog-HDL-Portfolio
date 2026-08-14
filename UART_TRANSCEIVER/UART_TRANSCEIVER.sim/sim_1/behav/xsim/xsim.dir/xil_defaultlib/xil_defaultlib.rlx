@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/Lenovo/Verilog-HDL-Portfolio/6_UART_Receiver/src/uart_rx.v,1785753277,verilog,,C:/Users/Lenovo/Verilog-HDL-Portfolio/7_UART_Transceiver/uart_transceiver.v,,uart_rx,,,../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Lenovo/Verilog-HDL-Portfolio/6_UART_Transmitter/src/baud_gen.v,1779546351,verilog,,C:/Users/Lenovo/Verilog-HDL-Portfolio/6_UART_Receiver/src/uart_rx.v,,baud_gen,,,../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Lenovo/Verilog-HDL-Portfolio/6_UART_Transmitter/src/uart_tx_fsm.v,1779641660,verilog,,C:/Users/Lenovo/Verilog-HDL-Portfolio/6_UART_Transmitter/src/uart_tx_top.v,,uart_tx_fsm,,,../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Lenovo/Verilog-HDL-Portfolio/6_UART_Transmitter/src/uart_tx_top.v,1779645453,verilog,,C:/Users/Lenovo/Verilog-HDL-Portfolio/7_UART_Transceiver/uart_transceiver_tb.v,,uart_tx_top,,,../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Lenovo/Verilog-HDL-Portfolio/7_UART_Transceiver/uart_transceiver.v,1786726571,verilog,,C:/Users/Lenovo/Verilog-HDL-Portfolio/6_UART_Transmitter/src/uart_tx_fsm.v,,uart_transceiver,,,../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Lenovo/Verilog-HDL-Portfolio/7_UART_Transceiver/uart_transceiver_tb.v,1786724356,verilog,,,,tb,,,../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Users/Lenovo/Verilog-HDL-Portfolio/UART_TRANSCEIVER/UART_TRANSCEIVER.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
