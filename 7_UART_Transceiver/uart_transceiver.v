@@ -6,12 +6,19 @@ module uart_transceiver (
 );
 wire [7:0] loopback_data;
 wire rx_done_tick;
+wire rx_tick;
+baud_gen Baud_gen_inst(
+    .clk(clk),
+    .rst(rst),
+    .baud(rx_tick)
+);
 uart_rx receiver_inst(
 .clk(clk),
 .rst(rst),
 .rx_in(rx_in),
 .rx_data(loopback_data),
-.rx_done(rx_done_tick)
+.rx_done(rx_done_tick),
+.baud_tick(rx_tick)
 );
 uart_tx_top transmitter_inst(
     .clk(clk),
