@@ -10,3 +10,4 @@
 | 6 | UART Receiver | Serial Communication, FSM, 16x Oversampling | Vivado | ✅ |
 | 7 | UART Transmitter | Serial Communication, FSM, Shift Registers | Vivado | ✅ |
 | 8 | UART Transceiver | Full-Duplex Serial, System Integration, Hardware Loopback | Vivado | ✅ |
+| 9 | Single-Cycle CPU | Datapath, Control Unit, ALU, Register File | Vivado | 🔲 |
