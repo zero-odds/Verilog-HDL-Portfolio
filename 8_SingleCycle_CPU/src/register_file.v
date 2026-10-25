@@ -11,9 +11,9 @@ integer i;
 assign read_data1 = registers[rs1_addr];
 assign read_data2 = registers[rs2_addr];
 
-always@(posedge clk) begin
+always@(posedge clk or posedge rst) begin
     if(rst)begin
-        for(i=0;i<8;i+1)
+        for(i=0;i<8;i=i+1)
         registers[i] <= 8'b0;
     end
     else if(reg_write)
