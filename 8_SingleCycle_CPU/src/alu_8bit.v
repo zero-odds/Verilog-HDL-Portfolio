@@ -1,6 +1,6 @@
 module alu (
     input [7:0] a,b,
-    input [3:0] opcode,
+    input [2:0] opcode,
     output reg [7:0] result,
     output zero
 );
