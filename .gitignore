@@ -4,3 +4,4 @@ ripple
 **/UART_Receiver/
 **/UART_Transmitter/
 **/UART_TRANSCEIVER/
+**/Cpu_Single_Cycle/

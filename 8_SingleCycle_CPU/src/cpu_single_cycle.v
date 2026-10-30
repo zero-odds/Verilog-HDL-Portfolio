@@ -53,7 +53,7 @@ register_file reg_inst (
     .read_data2(read_data2_sig)
 );
 
-alu_8bit alu_inst (
+alu alu_inst (
     .a(read_data1_sig),
     .b(read_data2_sig),
     .opcode(alu_control_sig),
