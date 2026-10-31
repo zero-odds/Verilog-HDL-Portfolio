@@ -6,8 +6,7 @@ A structural implementation of an 8-bit single-cycle CPU datapath designed from 
 This project is part of a larger roadmap to design a fully pipelined CPU architecture.
 
 ## Architecture Datapath
-*(Upload the image of your hand-drawn datapath here and link it below)*
-![CPU Datapath Diagram](link-to-your-image.png)
+![CPU Datapath Diagram](cpu_datapath.png)
 
 ## Hardware Modules
 - **Program Counter (PC):** An 8-bit sequential register that determines the next instruction address. Handles normal incrementation and jump operations, driven by an active-high asynchronous reset.
